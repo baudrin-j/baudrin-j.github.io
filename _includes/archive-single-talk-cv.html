@@ -27,7 +27,7 @@
       </div>
     {% endif %}
     <h3 class="archive__item-title" itemprop="headline">
-      {% if post.title contains "$" %}
+      {% if post.title contains "\(" %}
             {{ post.title | markdownify }}
           {% else %}
             {{ post.title }}
