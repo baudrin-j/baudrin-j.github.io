@@ -28,7 +28,7 @@
     {% endif %}
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.title contains "\(" %}
-            {{ post.title | markdownify }}
+            {{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}
           {% else %}
             {{ post.title }}
       {% endif %}
