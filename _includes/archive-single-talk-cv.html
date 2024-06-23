@@ -27,7 +27,11 @@
       </div>
     {% endif %}
     <h3 class="archive__item-title" itemprop="headline">
-      {{ title }}
+      {% if post.title contains "$" %}
+            "{{ post.title | markdownify }}"
+          {% else %}
+            "{{ post.title }}"
+      {% endif %}
     </h3>
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue%}
