@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Testing latex $\mathbb{F}$
+Testing latex \\(\mathbb{F}\\)
 
 Education
 ======
