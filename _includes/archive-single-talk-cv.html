@@ -35,13 +35,19 @@
     </h3>
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue%}
+      {%if post.collections="publications"%}
       <p class="archive__item-excerpt" itemprop="description">{{post.type}} at {{ post.venue }},  {{post.location}}
             {% if post.paperurl %}
               <a href=" {{ post.paperurl }} ">Paper</a>
-            {% elsif post.slidesurl %}
-             <a href="{{ post.slidesurl }}">Slides</a>
             {% endif %}
       </p>
+      {% elsif post.collections="talks"%}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}
+            {% if post.slidesurl %}
+              <a href=" {{ post.slidesurl }} ">Slides</a>
+            {% endif %}
+      </p>
+      {% endif %}
     {% endif %} 
     </li>
   </article>
