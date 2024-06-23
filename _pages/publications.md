@@ -12,5 +12,5 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include publi-talks-item-listing.html %}
+  {% include archive-single-item-publi-talk.html %}
 {% endfor %}
