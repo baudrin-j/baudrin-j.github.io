@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Testing latex $\mathbb{F}$
+
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
