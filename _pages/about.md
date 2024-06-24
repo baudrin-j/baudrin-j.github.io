@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jules Baudrin | PhD student at INRIA"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
