@@ -21,7 +21,7 @@ repository               : "baudrin-j.baudrin-j.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "moi.png"
   name             : "Jules Baudrin"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in symmetric cryptography"
