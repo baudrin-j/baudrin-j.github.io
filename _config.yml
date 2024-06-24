@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jules Baudrin | PhD student"
+title                    : "Jules Baudrin"
 title_separator          : "-"
 name                     : &name "Jules Baudrin"
 description              : &description "Jules Baudrin | Personal academic page"
