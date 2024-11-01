@@ -3,6 +3,10 @@ icon: fas fa-microscope
 order: 1
 math: true
 ---
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css " rel="stylesheet">
+
 I work on **symmetric cryptography** and **discrete mathematics**.
 During my first years of PhD, I mainly cryptanalyzed *symmetric primitives*, especially *lightweight* ones, such as $\mathsf{Ascon}$ (winner of the NIST lightweight competition) or $\mathsf{Midori}$. More recently, I started studying **Boolean functions**, and more specifically their cryptographic properties such as APN-ness (Almost Perfect Non-linear functions). I also take part in the **design** of new primitives either for new use cases or focused on extreme performances.
 {: style="text-align: justify"}
