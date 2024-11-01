@@ -6,7 +6,6 @@ math: true
 
 I work on **symmetric cryptography** and **discrete mathematics**.
 During my first years of PhD, I mainly cryptanalyzed *symmetric primitives*, especially *lightweight* ones, such as $\mathsf{Ascon}$ (winner of the NIST lightweight competition) or $\mathsf{Midori}$. More recently, I started studying **Boolean functions**, and more specifically their cryptographic properties such as APN-ness (Almost Perfect Non-linear functions). I also take part in the **design** of new primitives either for new use cases or focused on extreme performances.
-{: style="text-align: justify"}
 
 ## Publications
 You can find below a list[^jekyllscholar] of my published articles that I update from time to time. Alternatively, you can find them on [Google Scholar](https://scholar.google.com/citations?user=UyENXP0AAAAJ) or [DBLP](https://dblp.uni-trier.de/pid/337/2519.html). 

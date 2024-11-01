@@ -4,7 +4,7 @@ layout: page
 ---
 ## Research
 <div class="row">
-<div class="col-md-8" align="justify">
+<div class="col-md-8">
 I work on symmetric cryptography and discrete mathematics.
 
 Since September 2021, I am a PhD student under the supervision of [Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/) & [Léo Perrin](https://who.paris.inria.fr/Leo.Perrin/), whithin the [COSMIQ](https://www.rocq.inria.fr/secret/) team, at Inria.
