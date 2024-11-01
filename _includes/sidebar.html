@@ -11,7 +11,9 @@
       {%- endif -%}
     </a>
 
-    <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <h1 class="site-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </h1>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
   <!-- .profile-wrapper -->
@@ -21,8 +23,11 @@
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
-          <i class="fa-fw fas fa-home"></i>
-          <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+          <i class="fa-fw fas fa-address-card"></i>
+          <!--</i><i class="fa-fw fas fa-home"></i> -->
+          <!-- <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span> 
+          -->
+          ABOUT ME
         </a>
       </li>
       <!-- the real tabs -->

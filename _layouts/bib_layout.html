@@ -1,0 +1,60 @@
+---
+---
+<style>
+.btn-group-xs > .btn, .btn-xs {
+padding: 0.5px 3px;
+font-size: 14px;
+line-height: 1.5;
+border-radius: 3px;
+}
+</style>
+        {{reference }}{% if entry.doi %}
+            <a href="{{ entry.doi | prepend: 'https://doi.org/' }}" style="margin-right: .5em">
+            {{entry.doi}}
+            </a>
+            {% endif %}
+
+    {% if entry.hal %}
+    <div class="btn-group me-1" role="group"> <a href="{{ entry.hal | prepend: 'https://hal.science/'}}" role="button" class="btn btn-xs btn-outline-secondary">hal</a>   </div>
+    {% endif %}
+
+    {% if entry.keywords contains "conference" %}
+        <div class="btn-group me-1" role="group"> <a href="{{ entry.url }}" role="button" class="btn btn-xs btn-outline-secondary">proceedings</a>   </div>
+    {% endif %}
+
+    {% if entry.keywords contains "eprint" %}
+        <div class="btn-group me-1" role="group"> <a href="{{ entry.url }}" role="button" class="btn btn-xs btn-outline-secondary">eprint</a>   </div>
+    {% endif %}
+
+    {% if entry.git %}<div class="btn-group me-1" role="group"> <a href="{{entry.git}}" role="button" class="btn btn-xs btn-outline-secondary">git</a> </div> {% endif %}
+
+
+    {% if entry.keywords contains "talk" %}
+        {% if entry.slides %}
+        <div class="btn-group me-1" role="group">
+            {% if entry.slides contains "http" %}
+            <a href="{{ entry.slides }}" role="button" class="btn btn-outline-secondary btn-xs">slides</a>
+            {% else %}
+            <a href="{{ entry.slides | prepend: '../assets/pdf/slides/'}}" role="button" class="btn btn-outline-secondary btn-xs">slides</a>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% if entry.recording %}
+        <div class="btn-group me-1" role="group"> <a href="{{entry.recording}}" role="button" class="btn btn-outline-secondary btn-xs">recording</a> </div>
+        {% endif %}
+    {% else %}
+         <div class="btn-group me-1">
+                    <button type="button"
+                            class="btn btn-xs btn-outline-secondary dropdown-toggle"
+                            data-bs-toggle='dropdown'
+                            aria-expanded="false">
+                        bibtex <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <pre>{{ entry.bibtex}}</pre>
+                        </li>
+                    </ul>
+        </div>
+
+    {% endif %}
