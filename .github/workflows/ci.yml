@@ -35,6 +35,9 @@ jobs:
         with:
           fetch-depth: 0 # for posts's lastmod
 
+      - name: Setup Pandoc Document Converter
+        uses: siacodelabs/setup-pandoc@v1
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
