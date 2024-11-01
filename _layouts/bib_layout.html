@@ -12,6 +12,9 @@ border-radius: 3px;
             <a href="{{ entry.doi | prepend: 'https://doi.org/' }}" style="margin-right: .5em">
             {{entry.doi}}
             </a>
+            {% else %}
+            <a href="#" style="margin-right: .1em">
+            </a>
             {% endif %}
 
     {% if entry.hal %}
