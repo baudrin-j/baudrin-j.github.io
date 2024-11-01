@@ -110,8 +110,8 @@
   description: "This course is focused on cryptography, and especially on symmetric \
   cryptography. After looking at basic combinatorics results and historical cryptosystems, \
   two of the most famous symmetric ciphers are cryptanalyzed. First, we go through the DES \
-  and the reason to be of each of its internal components. This is an opportunity to understand\
-  the importance of non-linear operations and the power of the Feistel structure. Then,\
+  and the reason to be of each of its internal components. This is an opportunity to understand \
+  the importance of non-linear operations and the power of the Feistel structure. Then, \
   we do the same with the AES, and introduce some powerful attacks such as differential or \
   integral attacks. We then look at generic attacks, in particular on 2-DES, but also leveraging \
   time-memory trade-off based on the birthday paradox. We finally mention message authentication codes, \
