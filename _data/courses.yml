@@ -76,6 +76,50 @@
   second half is dedicated to discrete probability. The main objective is to ensure\
   that the students can conduct a simple line of reasoning with precision."
   website: https://yannrotella.github.io/cpt-maths/
+  documents:
+    - cc1:
+      name: Correction CC1
+      date: 21/09/2023
+      language: French
+      documents:
+        - cc1:
+          shortname: correction
+          link: "correction_cc1.pdf"
+    - cc2:
+      name: Correction CC2
+      date: 25/09/2023
+      language: French
+      documents:
+        - cc2:
+          shortname: correction
+          link: "correction_cc2.pdf"
+    - cc3:
+      name: Correction CC3
+      date: 27/09/2023
+      language: French
+      documents:
+        - cc3-td-1:
+          shortname: correction TD 1/2
+          link: "correction_cc3_td12.pdf"
+        - cc3-td-3:
+          shortname: correction TD 3
+          link: "correction_cc3_td3.pdf"
+    - cc4:
+      name: Correction CC4
+      date: 29/09/2023
+      language: French
+      documents:
+        - cc4:
+          shortname: correction
+          link: "correction_cc4.pdf"
+    - crt:
+      name: Notes on the Chinese Remainder Theorem
+      date: 26/09/2023
+      language: French
+      documents:
+        - notes:
+          shortname: notes
+          link: "complement_restes_chinois.pdf"
 
 - math-l2:
   title-en: Mathematics for computer science
@@ -95,6 +139,29 @@
   aspects of linear algebra are tackled: addition/multiplications of matrices, computation of \
   determinants, and of course inversion."
   website: https://defeo.lu/in310/
+  documents:
+    - cc1-sujet:
+      name: CC1
+      date: 28/10/2022
+      language: French
+      documents: 
+        - sujet:
+          shortname: CC1
+          link: "cc1_sujet.pdf"
+        - correction:
+          shortname: correction
+          link: "cc1_correction.pdf"
+    - cc2-sujet:
+      name: CC2
+      date: 07/12/2022
+      language: French
+      documents: 
+        - sujet:
+          shortname: CC2
+          link: "cc2_sujet.pdf"
+        - correction:
+          shortname: correction
+          link: "cc2_correction.pdf"
 
 - crypto-m1:
   title-en: Cryptography M1
@@ -116,6 +183,23 @@
   integral attacks. We then look at generic attacks, in particular on 2-DES, but also leveraging \
   time-memory trade-off based on the birthday paradox. We finally mention message authentication codes, \
   but also the asymmetric RSA cipher and some fault injection attacks against it."
+  documents:
+    - td2-ex-4:
+      name: Correction TD2 Exercice 4
+      date: 09/11/2023
+      language: French
+      documents: 
+        - correction:
+          shortname: correction
+          link: "correction_ex4_td2.pdf"
+    - td4-ex-2:
+      name: Correction TD4 Exercice 2 (AES)
+      date: 09/12/2023
+      language: French
+      documents: 
+        - correction:
+          shortname: correction
+          link: "correction_aes.pdf"
 
 - aws-m1:
   title-en: Web applications and security

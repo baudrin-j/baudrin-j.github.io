@@ -25,8 +25,13 @@ I am also part of some workgroups whose purposes are to **design** new primitive
 ## Teaching
 Besides, I am in charge of weekly tutorials at [UVSQ](https://www.uvsq.fr) (Université Versailles Saint-Quentin-en-Yvelines, Versailles, France).
 
-> **Contact**: name[.]surname[@]inria[.]fr
-{: .prompt-tip }
+
+## Contact
+
+>**Email**: name[.]surname[@]inria[.]fr  
+**Address**: Centre Inria de Paris, 48 rue Barrault, 75013 Paris, France
+{: .prompt-info }
+
 
 ![trondheim](/assets/img/lewis_trondheim.png) 
 <div style="text-align: right"> 

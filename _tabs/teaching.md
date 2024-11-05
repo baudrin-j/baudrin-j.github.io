@@ -22,6 +22,8 @@ For the past three years, I have been in charge of weekly tutorials at [UVSQ](ht
 {%- endfor -%}
 {%- endfor %}
 
+> Some **complementary documents** regarding the courses can be found [here](../posts/complementary-documents).
+{: .prompt-tip }
 
 ## Course abstracts
 {% for course in site.data.courses reversed %}
@@ -33,6 +35,9 @@ For the past three years, I have been in charge of weekly tutorials at [UVSQ](ht
 {% if course.website -%}
 - **Website** -- [{{course.website}}]({{course.website}})
 {% endif %}
+{%- if course.documents -%}
+- **Complementary documents** -- [documents]({{ "../posts/complementary-documents/#" | append: course.shortname | append: "--" | append: course.title-en | replace: " ", "-" }})
+{% endif -%}
 - **Description** -- {{ course.description}}
 
 {% endfor %}
