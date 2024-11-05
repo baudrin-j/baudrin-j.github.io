@@ -36,7 +36,7 @@ For the past three years, I have been in charge of weekly tutorials at [UVSQ](ht
 - **Website** -- [{{course.website}}]({{course.website}})
 {% endif %}
 {%- if course.documents -%}
-- **Complementary documents** -- [documents]({{ "../posts/complementary-documents/#" | append: course.shortname | append: "--" | append: course.title-en | replace: " ", "-" }})
+- **Complementary documents** -- [documents]({{ "../posts/complementary-documents/#" | append: course.shortname | downcase | append: "--" | append: course.title-en | downcase | replace: " ", "-" }})
 {% endif -%}
 - **Description** -- {{ course.description}}
 
