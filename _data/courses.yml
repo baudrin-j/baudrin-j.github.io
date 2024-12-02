@@ -30,7 +30,7 @@
   lecturer: Christina Boura
   description: "This course is an introduction to cryptography. It starts from \
   historical cryptosystems, and in particular with the cryptanalysis of *Enigma*. \
-  The first half is then dedicated to symmetric cryptography with the notions of\
+  The first half is then dedicated to symmetric cryptography with the notions of \
   stream ciphers (based on LFSRs), block ciphers (based on Feistel networks, such as *DES*), \
   but also modes of operations. After recalling the necessary background in \
   modular arithmetic, we focus on asymmetric cryptography with RSA, \
@@ -73,7 +73,7 @@
   and especially the cryptography course. The first half of the course is focused \ 
   on algebra structures (groups, rings, fields) and on the usage of classical results \
   such as the (extended) Euclidean division or the Chinese Remainder Theorem. The \
-  second half is dedicated to discrete probability. The main objective is to ensure\
+  second half is dedicated to discrete probability. The main objective is to ensure \
   that the students can conduct a simple line of reasoning with precision."
   website: https://yannrotella.github.io/cpt-maths/
   documents:

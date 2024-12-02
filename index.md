@@ -2,6 +2,11 @@
 layout: page
 # Index page
 ---
+## PhD Defense
+I will be defending my thesis on Friday December, 6th at 2pm.
+It will take place at Inria Paris research center (see below).
+If you want to attend or to have access to the online broadcast, please contact me :)
+
 ## Research
 <div class="row">
 <div class="col-md-8">
