@@ -7,7 +7,7 @@ layout: page
 <div class="col-md-8">
 I work on *symmetric cryptography* and *discrete mathematics*.
 
-I am currently a postdoctoral researcher at [UCLouvain](uclouvain.be) within the [Crypto Group](https://www-crypto.elen.ucl.ac.be/crypto/).
+I am currently a postdoctoral researcher at [UCLouvain](https://uclouvain.be) within the [Crypto Group](https://www-crypto.elen.ucl.ac.be/crypto/).
 
 From September 2021 to December 2024, I was a PhD student under the supervision of [Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/) & [Léo Perrin](https://who.paris.inria.fr/Leo.Perrin/), within the [COSMIQ](https://www.rocq.inria.fr/secret/) team, at [Inria](https://www.inria.fr).
 
