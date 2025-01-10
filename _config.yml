@@ -16,7 +16,7 @@ timezone: Europe/Paris
 
 title: Jules Baudrin # the main title
 
-tagline: PhD student in symmetric cryptography at Inria, Paris, France # it will display as the subtitle
+tagline: Postdoc in symmetric cryptography at UCLouvain, Louvain-la-Neuve, Belgium # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Jules Baudrin's academic webpage.
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Jules Baudrin
-  email: name.surname@inria.fr # change to your email address
+  email: name.surname@uclouvain.be # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/baudrin-j # change to your Twitter homepage

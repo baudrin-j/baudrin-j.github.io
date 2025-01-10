@@ -2,17 +2,14 @@
 layout: page
 # Index page
 ---
-## PhD Defense
-I will be defending my thesis on Friday December, 6th at 2pm.
-It will take place at Inria Paris research center (see below).
-If you want to attend or to have access to the online broadcast, please contact me :)
-
 ## Research
 <div class="row">
 <div class="col-md-8">
-I work on symmetric cryptography and discrete mathematics.
+I work on *symmetric cryptography* and *discrete mathematics*.
 
-Since September 2021, I am a PhD student under the supervision of [Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/) & [Léo Perrin](https://who.paris.inria.fr/Leo.Perrin/), whithin the [COSMIQ](https://www.rocq.inria.fr/secret/) team, at Inria.
+I am currently a postdoctoral researcher at [UCLouvain](uclouvain.be) within the [Crypto Group](https://www-crypto.elen.ucl.ac.be/crypto/).
+
+From September 2021 to December 2024, I was a PhD student under the supervision of [Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/) & [Léo Perrin](https://who.paris.inria.fr/Leo.Perrin/), within the [COSMIQ](https://www.rocq.inria.fr/secret/) team, at [Inria](https://www.inria.fr).
 
 During my first years of PhD, I mainly cryptanalyzed **symmetric** primitives, especially **lightweight** ones, such as *Ascon* (winner of the NIST lightweight competition) or *Midori*.
 
