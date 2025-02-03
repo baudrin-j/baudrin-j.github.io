@@ -30,8 +30,8 @@ Besides, I am in charge of weekly tutorials at [UVSQ](https://www.uvsq.fr) (Univ
 
 ## Contact
 
->**Email**: name[.]surname[@]inria[.]fr  
-**Address**: Centre Inria de Paris, 48 rue Barrault, 75013 Paris, France
+>**Email**: name[.]surname[@]uclouvain[.]be
+**Address**: Place du Levant 3, B-1348 Louvain-la-Neuve, Belgium.
 {: .prompt-info }
 
 
