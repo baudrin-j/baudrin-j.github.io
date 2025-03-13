@@ -35,7 +35,7 @@ You can find below a list[^jekyllscholar] of my published articles that I update
 ### Local seminars
 {% bibliography -f my_talks -q @*[keywords ~= local] -T bib_layout %}
 
-## PhD thesis and defence
+## PhD thesis and defense
 I was a PhD student at Inria Paris (COSMIQ team) from September 2021 to December 2024.
 I defended my PhD on December 6th, 2024. It is entitled *Algebraic properties of symmetric ciphers and of their non-linear components*.
 My manuscript can be found [here](../assets/pdf/thesis_baudrin_jules.pdf).
