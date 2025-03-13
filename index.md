@@ -32,7 +32,7 @@ My french resume can be found [here](./assets/pdf/2025_03_13_cv_baudrin_jules.pd
 
 ## Contact
 
->**Email**: name[.]surname[@]uclouvain[.]be 
+>**Email**: name[.]surname[@]uclouvain[.]be  
 **Address**: Place du Levant 3, B-1348 Louvain-la-Neuve, Belgium.
 {: .prompt-info }
 
