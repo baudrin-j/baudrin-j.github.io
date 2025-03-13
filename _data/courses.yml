@@ -37,6 +37,15 @@
   or ElGamal cryptosystems, or Diffie-Hellman key-exchange. \
   Finally, signatures and hash functions are studied."
   website: https://christinaboura.wordpress.com/lsin603-cryptographie/
+  documents:
+    - td4-ex5:
+      name: Correction TD4 Exercice 5
+      date: 27/03/2022
+      language: French
+      documents:
+        - td4-ex5:
+          shortname: correction
+          link: "td4_ex5_correction.pdf"
 
 - complement-algo-m1:
   title-en: Complementary course in algorithmic 
