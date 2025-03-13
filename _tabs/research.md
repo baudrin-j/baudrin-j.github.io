@@ -35,9 +35,16 @@ You can find below a list[^jekyllscholar] of my published articles that I update
 ### Local seminars
 {% bibliography -f my_talks -q @*[keywords ~= local] -T bib_layout %}
 
+## PhD thesis and defence
+I was a PhD student at Inria Paris (COSMIQ team) from September 2021 to December 2024.
+I defended my PhD on December 6th, 2024. It is entitled *Algebraic properties of symmetric ciphers and of their non-linear components*.
+My manuscript can be found [here](../assets/pdf/thesis_baudrin_jules.pdf).
+{% bibliography -f my_talks -q @*[keywords ~= defense] -T bib_layout %}
+
 
 ## Editorial Activities
 External Reviews for:
+- [DCC 2025](https://link.springer.com/journal/10623)
 - [ISC 2024](https://isc24.cs.gmu.edu/)
 - [CRYPTO 2023](https://crypto.iacr.org/2023/)
 - [Finite Fields and Their Applications](https://www.sciencedirect.com/journal/finite-fields-and-their-applications): 2022, 2023.

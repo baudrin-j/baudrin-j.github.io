@@ -27,10 +27,12 @@ I am also part of some workgroups whose purposes are to **design** new primitive
 ## Teaching
 Besides, I am in charge of weekly tutorials at [UVSQ](https://www.uvsq.fr) (Université Versailles Saint-Quentin-en-Yvelines, Versailles, France).
 
+My french resume can be found [here](./assets/pdf/2025_03_13_cv_baudrin_jules.pdf)
+
 
 ## Contact
 
->**Email**: name[.]surname[@]uclouvain[.]be
+>**Email**: name[.]surname[@]uclouvain[.]be 
 **Address**: Place du Levant 3, B-1348 Louvain-la-Neuve, Belgium.
 {: .prompt-info }
 
