@@ -20,7 +20,7 @@ You can find below a list[^jekyllscholar] of my published articles that I update
 
 
 ### Preprints
-{% bibliography -f my_papers -q @*[keywords ~= eprint] -T bib_layout %}
+{% bibliography -f my_papers -q @*[keywords ~= unpublished] -T bib_layout %}
 
 
 ## Talks
