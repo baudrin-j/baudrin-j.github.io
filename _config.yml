@@ -194,7 +194,7 @@ defaults:
       toc: true
       permalink: /:title/
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: "/_pages/" # An empty string here means all files in the project
       type: pages
     values:
       layout: post
