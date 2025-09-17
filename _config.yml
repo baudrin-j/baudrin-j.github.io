@@ -196,10 +196,9 @@ defaults:
   - scope:
       path: "" # An empty string here means all files in the project
       type: pages
-      permalink: /:title/
-      toc: true
     values:
       layout: post
+      permalink: /:title/
       comments: false # Enable comments in posts.
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
