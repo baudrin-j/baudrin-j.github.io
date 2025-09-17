@@ -2,7 +2,8 @@
 layout: post
 toc: true
 math: true
-title: IN310
+title: LSIN310
+permalink: /LSIN310/
 # Index page
 ---
 # LSIN310 - Mathématiques pour l'informatique
