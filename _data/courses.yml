@@ -4,30 +4,27 @@
   title-en: Foundations of computer science 1 - Introduction to Python
   title-fr: Fondements de l'informatique 1 - Initiation Python
   shortname: LSIN100
-  year: 
-    - 2021
   level: Licence 1
   period: from September to December
-  hours: 36h
-  format: 3h/week during 12 weeks
-  lecturer: Yann Rotella
   description: "This is an introductory course to programming for first-year students. \
   The programming language used is Python. The objective is the understanding of the basic \
   notions: conditional and iterative structures, functions, and lists. During the last class,
   Git is presented."
-  website: https://github.com/uvsq-info/l1-python
+  years: 
+    - year2021:
+      year: 2021
+      lecturer: Yann Rotella
+      load: 36h
+      format: 3h/week during 12 weeks
+      website: https://github.com/uvsq-info/l1-python
+
 
 - crypto-l3:
   title-en: Cryptography L3
   title-fr: Cryptographie
   shortname: LSIN603
   level: Licence 3
-  year: 
-    - 2022
   period: from February to May
-  hours: 36h
-  format: 3h/week during 12 weeks
-  lecturer: Christina Boura
   description: "This course is an introduction to cryptography. It starts from \
   historical cryptosystems, and in particular with the cryptanalysis of *Enigma*. \
   The first half is then dedicated to symmetric cryptography with the notions of \
@@ -36,46 +33,49 @@
   modular arithmetic, we focus on asymmetric cryptography with RSA, \
   or ElGamal cryptosystems, or Diffie-Hellman key-exchange. \
   Finally, signatures and hash functions are studied."
-  website: https://christinaboura.wordpress.com/lsin603-cryptographie/
-  documents:
-    - td4-ex5:
-      name: Correction TD4 Exercice 5
-      date: 27/03/2022
-      language: French
+  years: 
+    - year2022:
+      year: 2022
+      lecturer: Christina Boura
+      load: 36h
+      format: 3h/week during 12 weeks
+      website: https://christinaboura.wordpress.com/lsin603-cryptographie/
       documents:
         - td4-ex5:
-          shortname: correction
-          link: "td4_ex5_correction.pdf"
+          name: Correction TD4 Exercice 5
+          date: 27/03/2022
+          language: French
+          documents:
+            - td4-ex5:
+              shortname: correction
+              link: "td4_ex5_correction.pdf"
 
 - complement-algo-m1:
   title-en: Complementary course in algorithmic 
   title-fr: Complément d'algorithmique et compléxité
   shortname: MIN17102
   level: Master 1
-  year: 
-    - 2022
   period: in September
-  hours: 15h
-  format: Intensive course with five 3-hour tutorial over 2 weeks
-  lecturer: Sandrine Vial
+  format: "Intensive course over 2 weeks (lectures : 9h, tutorials: 15h)"
   description: "This is a refresher course common to multiple masters which \
   occurs at the very beginning of the first year of master. The aim is to go \
   through the main notions of algorithmics, with a particular attention given to \
   the computation of time complexity. The main search, insertion, and sorting algorithms \
   are for instance surveyed. This is also the case of the basic data structures."
+  years: 
+    - year2022:
+      year: 2022
+      lecturer: Sandrine Vial
+      load: 15h
+      format: 5x3h over 2 weeks
 
 - complement-math-m1:
   title-en: Complementary course in discrete mathematics 
   title-fr: Complément de mathématiques discrètes
   shortname: MIN17101
   level: Master 1
-  year: 
-    - 2022
-    - 2023
   period: in September
-  hours: 15h
-  format: Intensive course with five 3-hour tutorial over 2 weeks
-  lecturer: Franck Quessette & Yann Rotella
+  format: "Intensive course over 2 weeks (lectures : 9h, tutorials: 15h)"
   description: "This is a refresher course common to multiple masters which \
   occurs at the very beginning of the first year of master. The aim is to go \
   through the main notions of discrete mathematics that are needed in multiple courses, \
@@ -84,105 +84,123 @@
   such as the (extended) Euclidean division or the Chinese Remainder Theorem. The \
   second half is dedicated to discrete probability. The main objective is to ensure \
   that the students can conduct a simple line of reasoning with precision."
-  website: https://yannrotella.github.io/cpt-maths/
-  documents:
-    - cc1:
-      name: Correction CC1
-      date: 21/09/2023
-      language: French
+  years: 
+    - year2022:
+      year: 2022
+      lecturer: Franck Quessette and Yann Rotella
+      load: 15h
+      format: 5x3h over 2 weeks
+      website: https://yannrotella.github.io/cpt-maths/
+    - year2023:
+      year: 2023
+      lecturer: Franck Quessette and Yann Rotella
+      load: 15h
+      format: 5x3h over 2 weeks
+      website: https://yannrotella.github.io/cpt-maths/
       documents:
         - cc1:
-          shortname: correction
-          link: "correction_cc1.pdf"
-    - cc2:
-      name: Correction CC2
-      date: 25/09/2023
-      language: French
-      documents:
+          name: Correction CC1
+          date: 21/09/2023
+          language: French
+          documents:
+            - cc1:
+              shortname: correction
+              link: "correction_cc1.pdf"
         - cc2:
-          shortname: correction
-          link: "correction_cc2.pdf"
-    - cc3:
-      name: Correction CC3
-      date: 27/09/2023
-      language: French
-      documents:
-        - cc3-td-1:
-          shortname: correction TD 1/2
-          link: "correction_cc3_td12.pdf"
-        - cc3-td-3:
-          shortname: correction TD 3
-          link: "correction_cc3_td3.pdf"
-    - cc4:
-      name: Correction CC4
-      date: 29/09/2023
-      language: French
-      documents:
+          name: Correction CC2
+          date: 25/09/2023
+          language: French
+          documents:
+            - cc2:
+              shortname: correction
+              link: "correction_cc2.pdf"
+        - cc3:
+          name: Correction CC3
+          date: 27/09/2023
+          language: French
+          documents:
+            - cc3-td-1:
+              shortname: correction TD 1/2
+              link: "correction_cc3_td12.pdf"
+            - cc3-td-3:
+              shortname: correction TD 3
+              link: "correction_cc3_td3.pdf"
         - cc4:
-          shortname: correction
-          link: "correction_cc4.pdf"
-    - crt:
-      name: Notes on the Chinese Remainder Theorem
-      date: 26/09/2023
-      language: French
-      documents:
-        - notes:
-          shortname: notes
-          link: "complement_restes_chinois.pdf"
+          name: Correction CC4
+          date: 29/09/2023
+          language: French
+          documents:
+            - cc4:
+              shortname: correction
+              link: "correction_cc4.pdf"
+        - crt:
+          name: Notes on the Chinese Remainder Theorem
+          date: 26/09/2023
+          language: French
+          documents:
+            - notes:
+              shortname: notes
+              link: "complement_restes_chinois.pdf"
+    - year2025:
+      year: 2025
+      lecturer: Franck Quessette and Jules Baudrin
+      load: 3x1.5h + 5x3h
+
 
 - math-l2:
   title-en: Mathematics for computer science
   title-fr: Mathématiques pour l'informatique
   shortname: LSIN310
   level: Licence 2
-  year: 
-    - 2022
   period: from September to December
-  hours: 36h
-  format: 3h/week during 12 weeks
-  lecturer: Christina Boura
+  format: "4.5h/week during 12 weeks (lecture: 1.5h, tutorials: 3h)"
   description: "This is an introductory course to mathematics of license level. \
   The course starts by focusing on the notions of function, order/equivalence relations, \
   or inductive reasoning. Then modular arithmetic rules are studied, the ultimate goal being \
   the understanding and usage of the Extended Euclidean Algorithm. Finally, the computational \
   aspects of linear algebra are tackled: addition/multiplications of matrices, computation of \
   determinants, and of course inversion."
-  website: https://defeo.lu/in310/
-  documents:
-    - cc1-sujet:
-      name: CC1
-      date: 28/10/2022
-      language: French
-      documents: 
-        - sujet:
-          shortname: CC1
-          link: "cc1_sujet.pdf"
-        - correction:
-          shortname: correction
-          link: "cc1_correction.pdf"
-    - cc2-sujet:
-      name: CC2
-      date: 07/12/2022
-      language: French
-      documents: 
-        - sujet:
-          shortname: CC2
-          link: "cc2_sujet.pdf"
-        - correction:
-          shortname: correction
-          link: "cc2_correction.pdf"
+  years: 
+    - year2022:
+      year: 2022
+      lecturer: Christina Boura
+      load: 12x3h
+      website: https://defeo.lu/in310/
+      documents:
+        - cc1-sujet:
+          name: CC1
+          date: 28/10/2022
+          language: French
+          documents: 
+            - sujet:
+              shortname: CC1
+              link: "cc1_sujet.pdf"
+            - correction:
+              shortname: correction
+              link: "cc1_correction.pdf"
+        - cc2-sujet:
+          name: CC2
+          date: 07/12/2022
+          language: French
+          documents: 
+            - sujet:
+              shortname: CC2
+              link: "cc2_sujet.pdf"
+            - correction:
+              shortname: correction
+              link: "cc2_correction.pdf"
+    - year2025:
+      year: 2025
+      lecturer: Jules Baudrin
+      load: 12x1.5h + 12x3h
 
 - crypto-m1:
   title-en: Cryptography M1
   title-fr: Cryptographie
   shortname: MIN15122
   level: Master 1
-  year: 
-    - 2023
   period: from September to December
-  hours: 36h
   format: 3h/week during 12 weeks
-  lecturer: Louis Goubin
   description: "This course is focused on cryptography, and especially on symmetric \
   cryptography. After looking at basic combinatorics results and historical cryptosystems, \
   two of the most famous symmetric ciphers are cryptanalyzed. First, we go through the DES \
@@ -192,39 +210,49 @@
   integral attacks. We then look at generic attacks, in particular on 2-DES, but also leveraging \
   time-memory trade-off based on the birthday paradox. We finally mention message authentication codes, \
   but also the asymmetric RSA cipher and some fault injection attacks against it."
-  documents:
-    - td2-ex-4:
-      name: Correction TD2 Exercice 4
-      date: 09/11/2023
-      language: French
-      documents: 
-        - correction:
-          shortname: correction
-          link: "correction_ex4_td2.pdf"
-    - td4-ex-2:
-      name: Correction TD4 Exercice 2 (AES)
-      date: 09/12/2023
-      language: French
-      documents: 
-        - correction:
-          shortname: correction
-          link: "correction_aes.pdf"
+  years: 
+    - year2023:
+      year: 2023
+      lecturer: Louis Goubin
+      load: 12x3h
+      documents:
+        - td2-ex-4:
+          name: Correction TD2 Exercice 4
+          date: 09/11/2023
+          language: French
+          documents: 
+            - correction:
+              shortname: correction
+              link: "correction_ex4_td2.pdf"
+        - td4-ex-2:
+          name: Correction TD4 Exercice 2 (AES)
+          date: 09/12/2023
+          language: French
+          documents: 
+            - correction:
+              shortname: correction
+              link: "correction_aes.pdf"
+
 
 - aws-m1:
   title-en: Web applications and security
   title-fr: Applications Web et Sécurité
   shortname: MIN17217
   level: Master 1
-  year: 
-    - 2024
   period: from February to May
-  hours: 15h
-  format: five 3-hour tutorials over 2 months
-  lecturer: Yann Rotella
   description: "Web programming course for first-year master students, \
   with a specific attention to web security. After a few lectures, \
   the students are split into groups of 4 and freely choose a project that \
   should be delivered in about 2 months. During these two months, \
   five sessions are organized to make sure that everything is in order \
   thanks to a 1-page report and a small presentation."
-  website: https://yannrotella.github.io/aws/
+  hours: 15h
+  years: 
+    - year2024:
+      year: 2024
+      lecturer: Yann Rotella
+      website: https://yannrotella.github.io/aws/
+      format: 5x3h tutorials over 2 months
+
+
+

@@ -4,11 +4,9 @@ icon: fas fa-school
 order: 2
 showpostinfo: "false"
 ---
-For the past three years, I have been in charge of weekly tutorials at [UVSQ](https://www.uvsq.fr) (Université Versailles Saint-Quentin-en-Yvelines, Versailles, France).
 
-
-{% assign min_year = 2021 %}
-{% assign max_year = 2024 | plus: 1  %}
+{% assign min_year = 2025 %}
+{% assign max_year = 2025 | plus: 1  %}
 
 ## Teaching loads
 
@@ -16,9 +14,11 @@ For the past three years, I have been in charge of weekly tutorials at [UVSQ](ht
 |:----:|:----:|:-------|:--------------:|
 {% for year in (min_year..max_year) reversed -%}
 {% for course in site.data.courses -%}
-{% if course.year contains year -%}
-| {{ year }} | {{ course.shortname }} |  [{{ course.title-en }}]( #{{ course.title-en  | replace: " ", "-"  | downcase}} ) | {{ course.hours }} |
+{% for courseyear in course.years -%}
+{% if courseyear.year == year -%}
+| {{ year }} | {{ course.shortname }} |  [{{ course.title-en }}]( #{{ course.title-en  | replace: " ", "-"  | downcase}} ) | {{ courseyear.load }} |
 {% endif %}
+{%- endfor -%}
 {%- endfor -%}
 {%- endfor %}
 
@@ -26,12 +26,15 @@ For the past three years, I have been in charge of weekly tutorials at [UVSQ](ht
 {: .prompt-tip }
 
 ## Course abstracts
-{% for course in site.data.courses reversed %}
+{% for year in (min_year..max_year) reversed -%}
+{% for course in site.data.courses -%}
+{% for courseyear in course.years -%}
+{% if courseyear.year == year -%}
 ### {{ course.title-en }}
 
 - **{{ course.shortname }}** -- *{{ course.title-fr }}*
-- **Format** -- {{ course.format }}, {{ course.period}} ({{ course.hours}})
-- **Lecturer** -- {{ course.lecturer }}
+- **Format** -- {{ course.format }}, {{ course.period}}
+- **Lecturer** -- {{ courseyear.lecturer }}
 {% if course.website -%}
 - **Website** -- [{{course.website}}]({{course.website}})
 {% endif %}
@@ -40,7 +43,10 @@ For the past three years, I have been in charge of weekly tutorials at [UVSQ](ht
 {% endif -%}
 - **Description** -- {{ course.description}}
 
-{% endfor %}
+{% endif %}
+{%- endfor -%}
+{%- endfor -%}
+{%- endfor %}
 
 ![https://xkcd.com/1935/](https://imgs.xkcd.com/comics/2018.png){: .normal }[^img]
 
