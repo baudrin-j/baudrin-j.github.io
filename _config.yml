@@ -174,7 +174,6 @@ collections:
     sort_by: order
   pages:
     output: true
-    permalink: /:title/
 
 defaults:
   - scope:
@@ -197,6 +196,8 @@ defaults:
   - scope:
       path: "" # An empty string here means all files in the project
       type: pages
+      permalink: /:title/
+      toc: true
     values:
       layout: post
       comments: false # Enable comments in posts.
