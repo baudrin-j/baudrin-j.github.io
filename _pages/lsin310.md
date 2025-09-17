@@ -9,21 +9,22 @@ title: IN310
 
 ## Organisation du semestre
 
-|    | Enseignant    | Horaires |
-| CM | Jules Baudrin |          |
-- CM: le mercredi de 13h50 à 15h20 en amphi E (Descartes).
-- TD: 2 x 1h30 par semaine, cf [emploi du temps](https://edt.uvsq.fr/cal?vt=agendaWeek&et=module&fid0=LSIN310).
-- TD 1 (Anas Boudi) le lundi 13h50-15h20 et le mardi 15h30-17h.
-- TD 2 (Jules Baudrin) le lundi 13h50-15h20 et le mercredi 11h20-12h50.
-- TD 3 (Anas Boudi) le lundi 15h30-17h et le jeudi 9h40-11h10.
-- TD 4 (Franck Quessette) le lundi 15h30-17h et le mardi 13h50-15h20.
-- TD 5 (**TBD**) le lundi 15h30-17h et le mercredi 9h40-11h10.
+|     | Enseignant         | Horaires                                         |
+| CM  | Jules Baudrin      | mercredi de 13h50 à 15h20 en amphi E (Descartes) |
+| TD1 | Pierre Varjabedian |                                                  |
+| TD2 | Jules Baudrin      |                                                  |
+| TD3 | Anas Boudi         |                                                  |
+| TD4 | Franck Quessette   |                                                  |
+| TD5 | Anas Boudi         |                                                  |
+
+L'[emploi du temps](https://edt.uvsq.fr/cal?vt=agendaWeek&et=module&fid0=LSIN310) ici.
+
 - Contrôle continu : 
 	- Deux évaluations d'1h30 pendant le semestre.
 	- CC1 : **TBD**.
 	- CC2 : **TBD**.
 
-## Plan prévisionnel du cours
+## Plan <ins>prévisionnel</ins> du cours
 
 | Semaine |             CM            |                   TD                  |
 |---------|---------------------------|---------------------------------------|

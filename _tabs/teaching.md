@@ -16,13 +16,13 @@ showpostinfo: "false"
 {% for course in site.data.courses -%}
 {% for courseyear in course.years -%}
 {% if courseyear.year == year -%}
-| {{ year }} | {{ course.shortname }} |  [{{ course.title-en }}]( #{{ course.title-en  | replace: " ", "-"  | downcase}} ) | {{ courseyear.load }} |
+| {{ year }} | {{ course.shortname }} |  [{{ course.title-en }}](/{{ course.shortname }} ) | {{ courseyear.load }} |
 {% endif %}
 {%- endfor -%}
 {%- endfor -%}
 {%- endfor %}
 
-> Some **complementary documents** regarding the courses can be found [here](../posts/complementary-documents).
+> Some **complementary documents** regarding the courses can be found [here](/complementary-documents).
 {: .prompt-tip }
 
 ## Course abstracts
