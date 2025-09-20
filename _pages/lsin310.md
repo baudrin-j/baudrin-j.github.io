@@ -10,13 +10,14 @@ permalink: /LSIN310/
 
 ## Organisation du semestre
 
-|     | Enseignant         | Horaires                                         |
-| CM  | Jules Baudrin      | mercredi de 13h50 à 15h20 en amphi E (Descartes) |
-| TD1 | Pierre Varjabedian |                                                  |
-| TD2 | Jules Baudrin      |                                                  |
-| TD3 | Anas Boudi         |                                                  |
-| TD4 | Franck Quessette   |                                                  |
-| TD5 | Anas Boudi         |                                                  |
+|     | Enseignant         | Horaires                                  |
+| CM  | Jules Baudrin      | mercredi 13h50-15h20, amphi E (Descartes) |
+| TD1 | Pierre Varjabedian | mardi 15h30-17h et vendredi 9h40-11h10    |
+| TD2 | Jules Baudrin      | lundi 13h50-15h20 et mercredi 11h20-12h50 |
+| TD3 | Anas Boudi         | lundi 15h30-17h et jeudi 9h40-11h10       |
+| TD4 | Franck Quessette   | lundi 15h30-17h et mardi 13h50-15h20      |
+| TD5 | Anas Boudi         | lundi 13h50-15h20 et mercredi 9h40-11h10  |
+
 
 L'[emploi du temps](https://edt.uvsq.fr/cal?vt=agendaWeek&et=module&fid0=LSIN310) ici.
 
