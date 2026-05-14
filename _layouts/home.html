@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<header>
+  <h1>{{ site.title }} | {{page.title}}</h1>
+  {% if site.theme_config.show_description == true %}
+    <p>{{ site.description }}</p>
+  {% endif %}
+</header>
+
+{% include menu_item.html collection=site.data.menu.entries %}
+<hr>
+{{ content }} 
+
+{% include back_to_top.html %}
+
+<footer style="font-size: 13px;">
+  <hr>
+  {%- assign datetoday = site.time | date: "%d-%m-%Y" -%}
+  Last updated on {{ datetoday }}. A fork of <a href=https://github.com/riggraz/no-style-please>no-style-please</a> by Riccardo Graziosi.
+</footer>

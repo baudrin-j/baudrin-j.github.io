@@ -1,0 +1,134 @@
+:root {
+	--back-color: #F2F2F2;
+	--link-color: #FF7F11;
+	--font-title-color: #659e63;
+	--font-subtitle-color: #8A5F41;
+}
+
+body {
+  color: black;
+  background-color: var(--back-color);
+  font-family: monospace;
+  font-size: 17px;
+  line-height: 1.3rem;
+}
+
+a{ color: var(--link-color);//#F46036;// #DD9E59;
+    text-decoration:none;}
+
+a:hover {
+    text-decoration: underline;
+    color:var(--font-subtitle-color);
+}
+
+.wrapper {
+  width: fit-content;
+  max-width: 660px;
+  margin: 0rem auto;
+}
+
+h1 { 
+  line-height: 2rem;
+  color: var(--font-title-color);
+  font-size: 28px;}
+
+h2 { 
+  line-height: 2rem;
+  margin-top: 3em;
+  font-size: 24px;}
+
+h3 { 
+  font-size: 22px;
+  //color:var(--font-title-color);
+  }
+
+h4 { 
+  font-size: 18px;
+  color:var(--font-subtitle-color);
+  margin-left:10px;
+  }
+
+strong {
+color: var(--font-title-color);
+}
+
+span.strong {
+  color:var(--font-subtitle-color);
+  font-weight:bold;
+}
+
+em {
+  color: var(--font-title-color);
+}
+
+hr {
+  text-align: center;
+  border: 0;
+
+  &:before { content: '/////' }
+  &:after { content: attr(data-content) '/////' }
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+blockquote {
+  border: thin solid black;
+}
+
+iframe {
+  width: 100%;
+  height: 660px;
+  background-color: var(--back-color);
+  border: thin solid black;
+}
+
+// Back to top button
+main {position: relative;} 
+
+.scroll-top {
+  position: absolute;
+  top: 110vh; // starts below the bottom of the screen 
+  bottom: -10rem; // stops scrolling before the end
+  right: 1rem;
+}
+
+.scroll-top__link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90vh;
+  text-decoration:none;
+  border-radius: .25rem;
+  background-color: var(--font-subtitle-color);
+  padding:1rem;
+  color: white;
+  font-weight:700;
+  opacity:.3;
+}
+
+.scroll-top__link:hover {
+  opacity: initial;
+}
+
+table {
+   
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+   border: thin solid black;
+   background-color: #659e6368;
+}
+
+td {
+    border: thin solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #659e631f;
+}
+
+p.talks_paragraph{
+  padding-left: 1em;
+}

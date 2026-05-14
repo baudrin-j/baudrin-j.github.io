@@ -1,0 +1,12 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+entries:
+  - title: contact
+    icon: account_circle
+    url: /index
+  - title: research
+    icon: science # google Material Symbol name
+    url: /research
+  - title: teaching
+    icon: school
+    url: /teaching

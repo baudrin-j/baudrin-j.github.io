@@ -1,0 +1,13 @@
+{%- include head.html -%}
+<ul style="display:flex;justify-content: center;margin:1.5em;">
+  {% for item in include.collection %}
+    {% if item.icon != false %}
+      <span class="material-symbols-outlined">{{ item.icon }}</span>
+    {% endif %}
+    {% if item.url != false %}
+      <a style="margin-left:.1em;margin-right:2em" href="{{ item.url }}">{{ item.title }}</a>
+    {% else %}
+      {{ item.title }}
+    {% endif %}
+  {% endfor %}
+</ul>

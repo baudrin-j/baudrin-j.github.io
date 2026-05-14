@@ -1,0 +1,75 @@
+#Teaching experiences
+---
+# L1
+- id-ue: LSIN100
+  title-en: Foundations of computer science 1 - Introduction to Python
+  title-fr: Fondements de l'informatique 1 - Initiation Python
+  level: Licence 1
+  period: from September to December
+  description: "This is an introductory course to programming for first-year students. The programming language used is Python. The objective is the understanding of the basic notions: conditional and iterative structures, functions, and lists. During the last class, Git is presented."
+
+#L2
+- id-ue: LSIN310
+  title-en: Mathematics for computer science
+  title-fr: Mathématiques pour l'informatique
+  level: Licence 2
+  period: from September to December
+  format: "4.5h/week during 12 weeks (lecture: 1.5h, tutorials: 3h)"
+  description: "This is an introductory course to mathematics of license level. The course starts by focusing on the notions of function, order/equivalence relations, or inductive reasoning. Then modular arithmetic rules are studied, the ultimate goal being the understanding and usage of the Extended Euclidean Algorithm. Finally, the computational aspects of linear algebra are tackled: addition/multiplications of matrices, computation of determinants, and of course inversion."
+  description-fr: "Cours de Licence 2 introduisant aux concepts mathématiques nécessaires à la poursuite d'études en informatique. L'objectif du cours est d'être en mesure de prouver des énoncés élémentaires de manière la plus rigoureuse possible. Le cours parcourt des notions fondamentales telles que la logique, les techniques de preuves, les fonctions, les relations (d'ordre, d'équivalence), l'arithmétique modulaire ou encore l'algèbre linéaire. Autant de concepts essentiels qui serviront de fondements aux autres cours de la formation, comme les cours d'algorithmique ou de cryptographie."
+
+# L3
+- id-ue: LSIN603
+  title-en: Cryptography L3
+  title-fr: Cryptographie
+  level: Licence 3
+  period: from February to May
+  format: "4.5h/week during 12 weeks (lecture: 1.5h, tutorials: 3h)"
+  description: "This course is an introduction to cryptography. It starts from historical cryptosystems, and in particular with the cryptanalysis of *Enigma*. The first half is then dedicated to symmetric cryptography with the notions of stream ciphers (based on LFSRs), block ciphers (based on Feistel networks, such as *DES*), but also modes of operations. After recalling the necessary background in modular arithmetic, we focus on asymmetric cryptography with RSA, or ElGamal cryptosystems, or Diffie-Hellman key-exchange. Finally, signatures and hash functions are studied."
+
+# M1
+- id-ue: MIN17102
+  title-en: Complementary course in algorithmic 
+  title-fr: Complément d'algorithmique et complexité
+  level: Master 1
+  period: in September
+  format: "Intensive course over 2 weeks (lectures : 9h, tutorials: 15h)"
+  description: "This is a refresher course common to multiple masters which occurs at the very beginning of the first year of master. The aim is to go through the main notions of algorithmics, with a particular attention given to the computation of time complexity. The main search, insertion, and sorting algorithms are for instance surveyed. This is also the case of the basic data structures."
+
+- id-ue: MIN17101
+  title-en: Complementary course in discrete mathematics 
+  title-fr: Complément de mathématiques discrètes
+  level: Master 1
+  period: in September
+  format: "Intensive course over 2 weeks (lectures : 9h, tutorials: 15h)"
+  description: "This is a refresher course common to multiple masters which occurs at the very beginning of the first year of master. The aim is to go through the main notions of discrete mathematics that are needed in multiple courses, and especially the cryptography course. The first half of the course is focused on algebra structures (groups, rings, fields) and on the usage of classical results such as the (extended) Euclidean division or the Chinese Remainder Theorem. The second half is dedicated to discrete probability. The main objective is to ensure that the students can conduct a simple line of reasoning with precision."
+
+- id-ue: MIN15122
+  title-en: Cryptography M1
+  title-fr: Cryptographie
+  level: Master 1
+  period: from September to December
+  format: 3h/week during 12 weeks
+  description: "This course is focused on cryptography, and especially on symmetric cryptography. After looking at basic combinatorics results and historical cryptosystems, two of the most famous symmetric ciphers are cryptanalyzed. First, we go through the DES and the reason to be of each of its internal components. This is an opportunity to understand the importance of non-linear operations and the power of the Feistel structure. Then, we do the same with the AES, and introduce some powerful attacks such as differential or integral attacks. We then look at generic attacks, in particular on 2-DES, but also leveraging time-memory trade-off based on the birthday paradox. We finally mention message authentication codes, but also the asymmetric RSA cipher and some fault injection attacks against it."
+
+- id-ue: MIN17217
+  title-en: Web applications and security
+  title-fr: Applications Web et Sécurité
+  level: Master 1
+  period: from February to May
+  description: "Web programming course for first-year master students with a specific attention to web security. After a few lectures, the students are split into groups of 4 and freely choose a project that should be delivered in about 2 months. During these two months, five sessions are organized to make sure that everything is in order thanks to a 1-page report and a small presentation."
+
+- id-ue: MIN17218
+  title-en: Secure computation
+  title-fr: Calcul sécurisé
+  level: Master 1
+  period: from March to May
+  format: 8x(1,5 + 3h)
+  description: "Traditionnellement, en cryptographie, on cherche à garantir la confidentialité, l’intégrité et l’authenticité de «messages», qui sont des objets «statiques» (stockés ou transmis). En revanche on ne considère pas la sécurité des algorithmes et protocoles cryptographiques eux-mêmes (des programmes, par nature «dynamiques»).  Dans l’UE «Calcul sécurisé», on verra qu’en réalité il est très important de sécuriser également les calculs (au sens d’algorithmes / protocoles / programme. Le cours couvrira des aspects pratiques de ces problèmes de sécurité (débordement de tampon, rétro-analyse de code, attaques par canaux auxiliaires, injection de fautes), et aborde des questions théoriques (notion de calcul, machines de Turing, garbled circuits, programmes auto-modifiants,obfuscation de code) en montrant comment ces notions peuvent être utilisées pour prévenir les vulnérabilités du logiciel."
+
+- id-ue: MIN15221
+  title-en: TER
+  title-fr: TER
+  level: Master 1
+  period: from January to May
+  format: group project

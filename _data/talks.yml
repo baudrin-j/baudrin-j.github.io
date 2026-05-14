@@ -1,0 +1,130 @@
+  # INTERNATIONAL CONFERENCES
+  - type: International conferences and workshops
+    confs:
+    - code: nist22
+      title: Practical cube-attack against nonce-misused Ascon
+      event: NIST Fifth Lightweight Cryptography Workshop
+      event-place: online
+      date: 2022-05-10
+      url: https://csrc.nist.rip/events/2022/lightweight-cryptography-workshop-2022
+      slides: https://csrc.nist.rip/csrc/media/Presentations/2022/practical-cube-attack-against-nonce-misused-ascon/images-media/session-3-baudrin-practical-cube-attack-against-nonce-misused-ascon.pdf
+      recording: https://www.nist.gov/video/day-2-part-1-lightweight-cryptography-workshop-2022
+    
+    - code: fse23
+      title: Practical Cube Attack against Nonce-Misused Ascon
+      event: Fast Software Encryption - FSE 2023
+      event-place: Kobe, Japan
+      date: 2023-03-23
+      url: https://fse.iacr.org/2023/japanEvent.php
+      slides: https://tosc.iacr.org/index.php/ToSC/article/view/9974/11484
+      recording: https://tosc.iacr.org/index.php/ToSC/article/view/9974/11485
+
+    - code: fse24
+      title: Commutative Cryptanalysis Made Practical
+      event: Fast Software Encryption - FSE 2024
+      event-place: Leuven, Belgium
+      date: 2024-03-25
+      url: https://fse.iacr.org/2024/
+      slides: https://tosc.iacr.org/index.php/ToSC/article/view/11290/11534
+      recording: https://tosc.iacr.org/index.php/ToSC/article/view/11290/11535
+    
+    - code: wcc24
+      title: "On functions $F: \\mathbb{F}\\_{2^{2t}} \\to \\mathbb{F}\\_{2^{2t}}$ mapping cosets of $\\mathbb{F}\\_{2^{t}}^{\\*}$ to cosets of $\\mathbb{F}\\_{2^{t}}^{\\*}$"
+      event: Thirteenth International Workshop on Coding and Cryptography - WCC 2024
+      event-place: Perugia, Italy
+      date: 2024-06-18
+      url: https://wcc2024.sites.dmi.unipg.it/
+      slides: https://wcc2024.sites.dmi.unipg.it/SLIDES/Baudrin.pdf
+    
+    - code: dagstuhl25
+      title: Boolean Modeling and Analysis of LWR
+      event: Dagstuhl-Seminar 26061 Symmetric Cryptography 
+      event-place: Schloss Dagstuhl, Leibniz-Zentrum für Informatik, Germany
+      date: 2026-02-04
+      url: https://www.dagstuhl.de/26061
+      slides: /documents/slides/2026_02_04_dagstuhl_seminar.pdf
+    
+  
+  # NATIONAL CONFERENCES
+  - type: National conferences and workshops
+    confs:
+    - code: jc2-2022
+      title: Cube-like attack against nonce-misused Ascon
+      event: Journées Codage et Cryptographie - JC2 2022
+      event-place: Hendaye, France
+      date: 2022-04-14
+      url: https://jc2-2022.inria.fr/fr/
+      slides: /documents/slides/2022_04_14_JC2.pdf
+    
+    - code: jc2-2023
+      title: Commutative Cryptanalysis Made Practical
+      event: Journées Codage et Cryptographie - JC2 2023
+      event-place: Najac, France
+      date: 2023-10-19
+      url: https://indico.math.cnrs.fr/event/9364/
+      slides: https://indico.math.cnrs.fr/event/9364/attachments/4433/6606/07%20Baudrin_Jules.pdf
+
+    - code: c2-2024
+      title: Geometrical structures among known APN functions
+      event: Séminaire Codage et Cryptographie
+      event-place: Paris, France
+      date: 2024-07-05
+      slides: /documents/slides/2024_07_05_slides_seminaire_c2.pdf
+
+    - code: jc2-2025
+      title: L'auto-équivalence linéaire, un point de vue unifié sur les familles connues de fonctions APN
+      event: Journées Codage et Cryptographie - JC2 2025
+      event-place: Pornichet, France
+      date: 2025-04-03
+      url: https://indico.math.cnrs.fr/event/11948/
+      slides: /documents/slides/2025_04_03_jc2.pdf
+
+# LOCAL SEMINAR
+  - type: Local seminars
+    confs:
+    - code: uvsq-2023
+      title: La cryptanalyse commutative, une classe (pas trop) générale d’attaques
+      event: Séminaire CRYPTO (UVSQ)
+      event-place: Versailles, France
+      date: 2023-11-23
+      url: https://lmv.math.cnrs.fr/seminaires/seminaires/seminaires-crypto/
+      slides: /documents/slides/2023_11_23_seminaire_versailles.pdf
+
+    - code: ucl-2024
+      title: Practical cube-attack against nonce-misused Ascon
+      event: Seminar at UCL Crypto Group
+      event-place: Louvain-la-Neuve, Belgium
+      date: 2024-05-22
+      slides: /documents/slides/2024_05_22_seminaire_UCL.pdf
+
+    - code: almasty-2025
+      title: Cryptanalyse différentielle de chiffrements conjugués
+      event: Almasty seminar
+      event-place: Paris, France
+      date: 2025-01-17
+      url: https://www-almasty.lip6.fr/seminar/
+      slides: /documents/slides/2025_01_17_seminaire_almasty.pdf
+
+    - code: rennes-2025
+      title: Differential cryptanalysis of conjugate ciphers
+      event: Séminaire de cryptographie de Rennes
+      event-place: Rennes, France
+      date: 2025-02-07
+      url: https://www.creachlabs.fr/fr/les-seminaires-pour-suivre-lactualite-scientifique/seminaire-cryptographie
+      slides: /documents/slides/2025_02_07_seminaire_rennes.pdf
+
+    - code: uvsq-2025
+      title: L'auto-équivalence linéaire, un point de vue unifié sur les familles connues de fonctions APN
+      event: Séminaire CRYPTO (UVSQ)
+      event-place: Versailles, France
+      date: 2025-02-21
+      url: https://lmv.math.cnrs.fr/seminaires/seminaires/seminaires-crypto/
+      slides: /documents/slides/2025_02_21_seminaire_uvsq.pdf
+
+    - code: pdh-defense
+      title: Algebraic properties of symmetric ciphers and of their non-linear components
+      event: PhD defense
+      event-place: Paris, France
+      date: 2024-12-06
+      url: https://theses.hal.science/tel-05020635
+      slides: /documents/slides/2024_12_06_phd_defense.pdf

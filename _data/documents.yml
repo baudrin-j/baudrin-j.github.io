@@ -1,0 +1,89 @@
+# LSIN310
+- name: CC1
+  id-ue: LSIN310
+  date: 28/10/2022
+  language: French
+  documents: 
+  - shortname: sujet
+    link: "cc1_sujet.pdf"
+  - shortname: correction
+    link: "cc1_correction.pdf"
+
+- name: CC2
+  id-ue: LSIN310
+  date: 07/12/2022
+  language: French
+  documents: 
+    - shortname: sujet
+      link: "cc2_sujet.pdf" 
+    - shortname: correction
+      link: "cc2_correction.pdf"
+
+# LSIN603
+- name: Correction TD4 Exercice 5
+  ue-id: LSIN603
+  date: 27/03/2022
+  language: French
+  documents:
+    - shortname: correction
+      link: "td4_ex5_correction.pdf"
+
+# MIN17101
+- name: Correction CC1
+  ue-id: MIN17101
+  date: 21/09/2023
+  language: French
+  documents:
+    - shortname: correction
+      link: "correction_cc1.pdf"
+      
+- name: Correction CC2
+  ue-id: MIN17101
+  date: 25/09/2023
+  language: French
+  documents:
+    - shortname: correction
+      link: "correction_cc2.pdf"
+
+- name: Correction CC3
+  id-ue: MIN17101
+  date: 27/09/2023
+  language: French
+  documents:
+    - shortname: groupe 1/2
+      link: "correction_cc3_td12.pdf"
+    - shortname: groupe 3
+      link: "correction_cc3_td3.pdf"
+
+- name: Correction CC4
+  id-ue: MIN17101
+  date: 29/09/2023
+  language: French
+  documents:
+    - shortname: correction
+      link: "correction_cc4.pdf"
+
+- name: Notes on the Chinese Remainder Theorem
+  id-ue: MIN17101
+  date: 26/09/2023
+  language: French
+  documents:
+    - shortname: notes
+      link: "complement_restes_chinois.pdf"
+
+# MIN15122
+- name: Correction TD2 Exercice 4
+  id-ue: MIN15122
+  date: 09/11/2023
+  language: French
+  documents: 
+  - shortname: correction
+    link: "correction_ex4_td2.pdf"
+
+- name: Correction TD4 Exercice 2 (AES)
+  id-ue: MIN15122
+  date: 09/12/2023
+  language: French
+  documents: 
+  - shortname: correction
+    link: "correction_aes.pdf"
