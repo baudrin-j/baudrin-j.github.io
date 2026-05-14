@@ -1,7 +1,7 @@
 title: Jules Baudrin # name of the site
 author: Jules Baudrin # name of site's author
 email: jules[dot]baudrin[at]uvsq[dot]fr # email of site's author
-url:  # root address of the site
+url:  baudrin-j.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
   Associate professor in computer science at UVSQ, Versailles, France
 favicon: "./assets/img/logo.png" # relative path to site's favicon
