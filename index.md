@@ -23,4 +23,4 @@ Previously, I was:
 > - **office**: 306 A, Descartes building, third floor.
 > - **address**: UVSQ, UFR des sciences, <br>  45 av. des États Unis, 78000 Versailles, France.
 
-<img src="assets/img/lewis_trondheim.png" alt="lewis trondheim" width="660px" max-width="100vw"/>
+<img src="assets/img/lewis_trondheim.png" alt="lewis trondheim" width="660px" style="max-width:98vw"/>
