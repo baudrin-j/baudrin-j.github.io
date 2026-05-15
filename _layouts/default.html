@@ -5,13 +5,11 @@
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
             {{ content }}
-            <footer style="font-size: 0.8rem;">
   <hr>
-  {%- assign datetoday = site.time | date: "%d-%m-%Y" -%}
-  Last updated on {{ datetoday }}. A fork of <a href=https://github.com/riggraz/no-style-please>no-style-please</a> by Riccardo Graziosi.
-</footer>
+  <span style="font-size: 0.8rem;"">{%- assign datetoday = site.time | date: "%d-%m-%Y" -%}
+  Last updated on {{ datetoday }}. A fork of <a href=https://github.com/riggraz/no-style-please>no-style-please</a> by Riccardo Graziosi.</span>
         </div>
-        
+        {% include back_to_top.html %}  
     </main>
     </body>
 </html>

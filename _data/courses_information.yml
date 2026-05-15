@@ -43,6 +43,7 @@
   period: in September
   format: "Intensive course over 2 weeks (lectures : 9h, tutorials: 15h)"
   description: "This is a refresher course common to multiple masters which occurs at the very beginning of the first year of master. The aim is to go through the main notions of discrete mathematics that are needed in multiple courses, and especially the cryptography course. The first half of the course is focused on algebra structures (groups, rings, fields) and on the usage of classical results such as the (extended) Euclidean division or the Chinese Remainder Theorem. The second half is dedicated to discrete probability. The main objective is to ensure that the students can conduct a simple line of reasoning with precision."
+  description-fr: "Cours de révisions et/ou remise à niveau en mathématiques discrètes commun à tous les Masters d'informatique de l'UVSQ. Ce cours de 2/3 semaines en début d'année aborde les notions fondamentales d'algèbre, d'arithmétique, de probabilités et combinatoires nécessaires dans les différentes UEs du parcours, en particulier les UE de cryptographie. Dans la première moitié, nous abordons les structures algébriques (groupe, anneau, corps) et quelques résultats classiques d'arithmétique  (algorithme d'Euclide étendu, Théorème de Sun Zi, etc). La deuxième moitié porte sur les probabilités discrètes. L'objectif du cours est de mener des raisonnements basiques de manière très rigoureuse."
 
 - id-ue: MIN15122
   title-en: Cryptography M1

@@ -11,6 +11,7 @@ I work on **cryptography** (analysis and design of symmetric primitives) and on 
 - [<span class="material-symbols-outlined">link</span>](#students) Students I supervise
 - [<span class="material-symbols-outlined">link</span>](#editorial-activities) Editorial activities
 
+<br>
 ## Publications
 
 Direct links: [Hal](https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=jules-baudrin&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=https://baudrin-j.github.io/assets/css/bib.css)&thinsp;&thinsp; [Google Scholar](https://scholar.google.com/citations?user=UyENXP0AAAAJ)&thinsp;&thinsp;[DBLP](https://dblp.uni-trier.de/pid/337/2519.html). 
@@ -22,11 +23,13 @@ Direct links: [Hal](https://haltools.archives-ouvertes.fr/Public/afficheRequeteP
 <iframe src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=jules-baudrin&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=https://baudrin-j.github.io/assets/css/bib.css"></iframe>
 This list is generated using [Haltools](https://haltools.archives-ouvertes.fr/).
 
+<br>
 ## Talks
 Conference website <span class="material-symbols-outlined">globe</span>, slides <span class="material-symbols-outlined">photo_library</span> and/or recording <span class="material-symbols-outlined">video_library</span> are provided when available.
 <iframe src="talks.html"></iframe>
 This list is manually maintained.
 
+<br>
 ## Students
 
 I supervise(d) the following students:
@@ -38,7 +41,7 @@ I supervise(d) the following students:
 *Searching for optimal S-boxes over&nbsp;$\mathbb{F}_{p}$*. Co-supervised with Anne Canteaut & Léo Perrin.
 
 
-
+<br>
 ## Editorial Activities
 I was an external reviewer for the following journals and conferences.
 #### Journals

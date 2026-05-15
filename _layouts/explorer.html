@@ -1,0 +1,33 @@
+---
+layout: home
+---
+{% assign loc_path = page.path | remove: "/index.md" %}
+{% assign depth =  page.path | split: "/" | size %}
+<h2 style="margin-top: 1em;">{{ loc_path }}/</h2>
+
+En <span style="color:#659e63">vert</span> les sous-dossiers, en <span style="color:#FF7F11">orange</span> les fichiers.
+
+<ul>
+<li><a style="color:#659e63" href="../">../</a></li>
+<br>
+{% for p in site.pages %}
+{% assign p_depth = p.path | split: "/" | size | minus: 1 %}
+{% if p_depth == depth and p.path contains loc_path and p.path contains "/index.md"  and p.path != page.path %}
+{% assign subfolder =  p.path | remove: loc_path | remove: "/index.md" %}
+
+<li><a style="color:#659e63" href=".{{ subfolder }}">{{ subfolder | slice: 1, subfolder.size }}/</a></li>
+<br>
+{% endif %}
+{% endfor %}
+
+{% for doc in site.static_files %}
+{% assign doc_depth = doc.path | split: "/" | size | minus: 1 %}
+{% if doc.path contains loc_path and doc_depth == depth %}
+{% assign dpath = doc.path | remove: loc_path | remove: "/" %}
+<li><a href="{{ dpath }}">{{ dpath }}</a></li>
+<br>
+{% endif %}
+{% endfor %}
+</ul>
+
+{{ content }}

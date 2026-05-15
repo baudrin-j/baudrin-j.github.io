@@ -10,3 +10,6 @@ entries:
   - title: teaching
     icon: school
     url: /teaching
+  - title: docs
+    icon: archive
+    url: /documents

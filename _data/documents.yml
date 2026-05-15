@@ -1,4 +1,54 @@
 # LSIN310
+- name: Logique
+  id-ue: LSIN310
+  date: 2025
+  language: French
+  documents: 
+  - link: "cm_logique"
+  - link: "td_1_logique.pdf"
+  - link: "td_2_raisonnement.pdf"
+
+- name: Ensembles
+  id-ue: LSIN310
+  date: 2025
+  language: French
+  documents: 
+  - link: "cm_ensembles"
+  - link: "td_3_ensembles.pdf"
+
+- name: Relations/Fonctions
+  id-ue: LSIN310
+  date: 2025
+  language: French
+  documents: 
+  - link: "cm_relations_fonctions"
+  - link: "td_4_relations.pdf"
+  - link: "td_2_raisonnement.pdf"
+
+- name: Logique
+  id-ue: LSIN310
+  date: 2025
+  language: French
+  documents: 
+  - shortname: résumé
+    link: "cm_logique"
+  - shortname: td1
+    link: "td_1_logique.pdf"
+  - shortname: td2
+    link: "td_2_raisonnement.pdf"
+
+- name: Logique
+  id-ue: LSIN310
+  date: 2025
+  language: French
+  documents: 
+  - shortname: résumé
+    link: "cm_logique"
+  - shortname: td1
+    link: "td_1_logique.pdf"
+  - shortname: td2
+    link: "td_2_raisonnement.pdf"
+
 - name: CC1
   id-ue: LSIN310
   date: 28/10/2022

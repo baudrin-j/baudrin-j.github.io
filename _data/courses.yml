@@ -2,81 +2,80 @@
 ---
 # 2025 -- 2026
 - id-ue: LSIN310
-  year: 2025
+  year: 2025-2026
   lecturer: Jules Baudrin
   lecture-load: 12x1.5h
   tutorial-load: 12x3h
   website: /lsin310
 
 - id-ue: MIN17101
-  year: 2025
+  year: 2025-2026
   lecturer: Franck Quessette and Jules Baudrin
   lecture-load: 3x1.5h
   tutorial-load: 5x3h
 
 - id-ue: LSIN603
-  year: 2026
+  year: 2025-2026
   lecturer: Yann Rotella
   website: https://yannrotella.github.io/cryptol3/
   tutorial-load: 12x3h
 
 - id-ue: MIN17218
-  year: 2026
+  year: 2025-2026
   lecturer: Louis Goubin
   website: https://ecampus.paris-saclay.fr/course/view.php?id=191410
   tutorial-load: 8x3h
 
 - id-ue: MIN15221
-  year: 2026
+  year: 2025-2026
   lecture-load: 2 groups
 
-# 2024
+# 2023-2024
 - id-ue: MIN17217
-  year: 2024
+  year: 2023-2024
   tutorial-load: 5x3h
   lecturer: Yann Rotella
   website: https://yannrotella.github.io/aws/
 
-# 2023
 - id-ue: MIN15122
-  year: 2023
+  year: 2023-2024
   lecturer: Louis Goubin
   tutorial-load: 12x3h
 
 - id-ue: MIN17101
-  year: 2023
+  year: 2023-2024
   lecturer: Franck Quessette and Yann Rotella
   tutorial-load: 5x3h
   website: https://yannrotella.github.io/cpt-maths/
 
 
-# 2022
+# 2022-2023
 - id-ue: MIN17102
-  year: 2022
+  year: 2022-2023
   lecturer: Sandrine Vial
   tutorial-load: 5x3h
 
 - id-ue: MIN17101
-  year: 2022
+  year: 2022-2023
   lecturer: Franck Quessette and Yann Rotella
   tutorial-load: 5x3h
   website: https://yannrotella.github.io/cpt-maths/
 
 - id-ue: LSIN310
-  year: 2022
+  year: 2022-2023
   lecturer: Christina Boura
   tutorial-load: 12x3h
   website: https://defeo.lu/in310/
 
+
+# 2021-2022
 - id-ue: LSIN603
-  year: 2022
+  year: 2021-2022
   lecturer: Christina Boura
   tutorial-load: 12x3h
   website: https://christinaboura.wordpress.com/lsin603-cryptographie/
-
-  # 2021
 - id-ue: LSIN100
-  year: 2021
+  year: 2021-2022
   lecturer: Yann Rotella
   tutorial-load: 12x3h
   website: https://github.com/uvsq-info/l1-python
