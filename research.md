@@ -18,7 +18,7 @@ Direct links: [Hal](https://haltools.archives-ouvertes.fr/Public/afficheRequeteP
 
 #### Preprints
 - *On the Concrete Hardness of LWR with a Power of Two Modulus*, Jules Baudrin, Rachelle Heim Boissier, François-Xavier Standaert (2026). [<span class="material-symbols-outlined">article</span>](https://eprint.iacr.org/2026/250)
-- *Linear self-equivalence of the known families of APN functions: a unified point of view.*, Jules Baudrin, Anne Canteaut, Léo Perrin (2024). [<span class="material-symbols-outlined">article</span>](/documents/papers/linear_self_equivalence_apn_functions)
+- *Linear self-equivalence of the known families of APN functions: a unified point of view.*, Jules Baudrin, Anne Canteaut, Léo Perrin (2024). [<span class="material-symbols-outlined">article</span>](https://eprint.iacr.org/2026/1012)
 
 <iframe src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=jules-baudrin&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=https://baudrin-j.github.io/assets/css/bib.css"></iframe>
 This list is generated using [Haltools](https://haltools.archives-ouvertes.fr/).
