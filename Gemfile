@@ -18,6 +18,8 @@ gem "no-style-please"
 # For opening url in new tabs
 gem 'jekyll-target-blank'
 
+gem 'sass-embedded', '~> 1.99'
+
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
