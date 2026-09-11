@@ -13,16 +13,23 @@ title: LSIN310 - Mathématiques pour l'informatique
 {% endfor %}
 
 
+> [!CAUTION]
+> Les informations données ici sont indicatives. La communication officielle a lieu sur la plateforme Ecampus du cours.
+
+## Responsable
+
+Jules Baudrin (nom🎾prenom@uvsq🎾fr)
+
 ## Emploi du temps
 
 |     | Enseignant        | Horaires                                  |
 | --- | ----------------- | ----------------------------------------- |
 | CM  | Jules Baudrin     | mercredi 13h50-15h20, lieu amphi E        |
 | TD1 | Jules Baudrin     | mardi 15h30-17h et mercredi 9h40-11h10    |
-| TD2 | TBD               | lundi 13h50-15h20 et vendredi 11h20-12h50 |
-| TD3 | Yann Rotella      | mercredi 11h20-12h50 et jeudi 9h40-11h10  |
+| TD2 | Titouan Mousset   | lundi 13h50-15h20 et vendredi 11h20-12h50 |
+| TD3 | Yann Rotella      | mercredi 11h20-12h50 et jeudi 13h50-15h20   |
 | TD4 | Christophe Levrat | lundi 15h30-17h et mardi 13h50-15h20      |
-| TD5 | TBD               | mercredi 11h20-12h50 vendredi 9h40-11h10  |
+
 
 Ceci est indicatif, l'[emploi du temps](https://edt.uvsq.fr/cal?vt=agendaWeek&et=module&fid0=LSIN310) en ligne fait foi.
 
@@ -42,14 +49,14 @@ Les épreuves auront lieu :
 | ------- | ---------------------------------- | ------------------------- |
 | 1       | Logique                            |                           |
 | 2       | Raisonnement                       | Logique                   |
-| 3       | Prédicats                          | Prédicats et raisonnement |
+| 3       | Prédicats                          | Prédicats/ raisonnement |
 | 4       | Théorie des ensembles              | Raisonnement              |
 | 5       | Théorie des ensembles et relations | Théorie des ensembles     |
 | 6       | Relations et applications          | Relations                 |
-| 7       | Arithmétique sur $\ZZ$             | Applications              |
+| 7       | Arithmétique sur $\mathbb Z$             | Applications              |
 |         | Vacances de la Toussaint           |                           |
 | 8       | Arithmétique modulaire 1/2         | CC1                       |
-| 9       | Arithmétique modulaire 2/2         | Arithmétique sur ZZ       |
+| 9       | Arithmétique modulaire 2/2         | Arithmétique sur $\mathbb Z$       |
 | 10      | Structures algébriques             | Arithmétique modulaire    |
 | 11      | Algèbre linéaire                   | Structures algébriques    |
 | 12      |                                    | Algèbre linéaire          |
