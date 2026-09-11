@@ -32,13 +32,18 @@ Jules Baudrin (nom🎾prenom@uvsq🎾fr)
 
 Ceci est indicatif, l'[emploi du temps](https://edt.uvsq.fr/cal?vt=agendaWeek&et=module&fid0=LSIN310) en ligne fait foi.
 
+Début des CM : le 9 septembre 2026
+Début des TD : le 14 septembre 2026
+
+Les TD du mercredi 11 novembre (férié) des groupes 1 et 3 seront rattrapés le mercredi 9 décembre sur le créneau de CM (13h50 à 15h20)
+
 ## Évaluation
 La note de l'UE est calculée selon la règle suivante:
 $$\begin{equation}0.6 \times Examen + 0.4 \times \frac{CC1 + CC2}{2}\end{equation}.$$
 Autrement dit l'examen vaut pour 60%, le contrôle continu pour 40% et la note de contrôle continu est la moyenne des deux CC.
 Les épreuves auront lieu :
-- CC1 : TBD.
-- CC2 : TBD.
+- CC1 : le lundi 2 novembre pour les groupes 2 et 4 et le mercredi 4 novembre pour les groupes 1 et 3.
+- CC2 : le lundi 7 décembre pour les groupes 2 et 4 et le mercredi 9 décembre pour les groupes 1 et 3.
 - CC de substitution : TBD (uniquement pour les ABJ auprès de la scolarité).
 - Examen : XXX janvier 2027
 
