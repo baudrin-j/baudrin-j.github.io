@@ -13,8 +13,7 @@ title: LSIN310 - Mathématiques pour l'informatique
 {% endfor %}
 
 
-> [!CAUTION]
-> Les informations données ici sont indicatives. La communication officielle a lieu sur la plateforme Ecampus du cours.
+> 🚨 Les informations données ici sont indicatives. La communication officielle a lieu sur la plateforme Ecampus du cours. 🚨
 
 ## Responsable
 
